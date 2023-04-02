@@ -2,8 +2,6 @@ import { Inter } from 'next/font/google';
 import { PrimaryLinkButton } from '~/components/common/PrimaryLinkButton';
 import { SecondaryLinkButton } from '~/components/common/SecondaryLinkButton';
 
-const inter = Inter({ subsets: ['latin'] });
-
 export default function Home() {
   return (
     <div className="bg-white">
